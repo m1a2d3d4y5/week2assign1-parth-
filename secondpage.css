@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color:lightblue
+}
+#page{
+    background-image: url(https://images.pexels.com/photos/45718/pexels-photo-45718.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+header h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    text-align: center;
+    font-size: 65px;
+    color: rgb(138, 52, 150);
+}
+.container{
+    
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 47%;
+}
+
+#btn{
+    
+        border-radius: 12px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 40%;
+    
+}
+
+#link{
+    text-decoration: none;
+    color: black;
+}
+#btn:hover{
+    height: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#link:hover{
+    color: rgb(194, 67, 206);
+}
+
+.para{
+    width: 650px;
+    height: 700px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: white;
+    font-size: 16px;
+    
+}
+.para::first-letter{
+    font-size: 300%;
+    color: rgb(201, 77, 194);
+}
+
+.look{
+    color:rgb(73, 5, 20);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    
+}
+#cont{
+    padding: 50px;
+    margin-left: 22%;
+    background-image: url(n.images.search.yahoo.com/search/images;_ylt=AwrxygJ.3JlhG2cAnSe7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=book+background+image&fr2=piv-web&type=E210IN826G0&fr=mcafee#id=98&iurl=http%3A%2F%2Fwww.baltana.com%2Ffiles%2Fwallpapers-5%2FBooks-Powerpoint-HD-Desktop-Wallpaper-17847.jpg&action=click)  ;
+}
+.end{
+    text-align: center;
+}
+
+#nbtn{
+    
+    border-radius: 12px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40%;
+
+}
+#nbtn:hover{
+    height: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#home_btn{
+    text-decoration: none;
+    color: black;
+}
+#home_btn:hover{
+    color: rgb(202, 82, 172);
+}
+p:hover{
+    color: rgb(181, 132, 190);
+}
